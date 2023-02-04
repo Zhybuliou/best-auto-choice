@@ -70,3 +70,66 @@
 .card-button {
   margin-top: 10px;
 }
+.logo{
+  display: 'flex';
+  align-items: 'center';
+  flex-direction: 'column';
+  margin: 0 auto;
+}
+.header{
+    min-width: '200px';
+    min-height: '95vh';
+    background-color: '#FFFFFF';
+    border-right: '1px solid #D1D1D1',
+}
+.nav-menu-wrapper{
+  margin-top: 63px;
+}
+.navMenu{
+  list-style: 'none';
+}
+.catalog-cars{
+  width: 90%;
+}
+
+@media screen and (max-width: 700px) {
+  .logo img {
+    display: none;
+  }
+  .header{
+    position: fixed;
+    width: 100%;
+    min-height: 5vh;
+    background-color: #d9d9d9;
+    z-index: 999;
+    bottom: 0;
+  }
+  .nav-menu-wrapper{
+    margin-top: 0px;
+  }
+  .navMenu{
+    display: flex;
+  }
+  .nav-span{
+    display: none;
+  }
+  .navMenu li a {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .newsList li {
+    margin-top: 0px;
+  }
+  .catalog-filter{
+    display: none;
+  }
+  .catalog-cars{
+    width: 100%;
+  }
+  .newsList{
+    width: 300px;
+  }
+}
