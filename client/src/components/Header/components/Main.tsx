@@ -20,8 +20,13 @@ export default function Main() {
         <img
           src={logo}
           alt='Logo'
-          style={{ width: '120px', height: '120px', marginTop: '14px', borderRadius: '25px',
-          boxShadow: '5px 5px 5px 0px rgba(0,0,0,0.3)' }}
+          style={{
+            width: '120px',
+            height: '120px',
+            marginTop: '14px',
+            borderRadius: '25px',
+            boxShadow: '5px 5px 5px 0px rgba(0,0,0,0.3)',
+          }}
         />
         <div style={{ marginTop: '63px' }}>
           <ul className='navMenu' style={{ listStyle: 'none' }}>

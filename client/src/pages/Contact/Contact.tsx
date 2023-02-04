@@ -7,7 +7,11 @@ export default function Contact() {
       <h1 style={{ marginTop: '20px' }}>Contact</h1>
       <p style={{ marginTop: '20px' }}>✍️ Личном Сообщении @AndrewRudovich</p>
       <p>📞 Звоните +1(407)8001554</p>
-      <img src={orlando} alt="orlando" style={{borderRadius: '65px', width: '100%', padding: '50px'}} />
+      <img
+        src={orlando}
+        alt='orlando'
+        style={{ borderRadius: '65px', width: '100%', padding: '50px' }}
+      />
     </div>
   )
 }

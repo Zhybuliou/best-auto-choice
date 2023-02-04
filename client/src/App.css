@@ -29,10 +29,44 @@
   text-decoration: none;
   border-radius: 5px;
 }
-.newsList{
+.newsList {
   width: 600px;
   margin: 10px auto;
 }
-.newsList li{
+.newsList li {
   margin-top: 10px;
+}
+.catalog-filter {
+  width: 289px;
+  background: #f3f3f3;
+  border-left: 1px solid #d1d1d1;
+}
+.card-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #282828;
+}
+.card-line {
+  width: 95%;
+  margin: 8px 0px;
+  height: 1px;
+  background: #d9d9d9;
+}
+.catalog-filter {
+  background-image: url(./components/assets/filter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card-light {
+  margin-left: 4px;
+  padding: 1.5px;
+  border: solid 1px #000;
+  border-radius: 25%;
+}
+.card-button {
+  margin-top: 20px;
 }
