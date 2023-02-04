@@ -3,7 +3,7 @@ import dataCars from './data_1.json'
 
 export default function Cars() {
   return (
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
       {dataCars.adminEvents.media.medias.map((img) => {
         const objCar = dataCars.adminEvents.assets.assets
         const { vin, model, year, make, mileage, exteriorColor, fuelType } =
