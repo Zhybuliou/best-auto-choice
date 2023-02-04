@@ -20,13 +20,13 @@ export default function Cars() {
             style={{
               display: 'flex',
               margin: '5px',
-              width: '250px',
-              height: '380px',
+              width: '320px',
+              height: '400px',
               flexDirection: 'column',
             }}
           >
             <div>
-              <img src={img.urls.medium} style={{ width: '250px' }} />
+              <img src={img.urls.medium} style={{ width: '320px' }} />
             </div>
 
             <div style={{ width: '100%', marginLeft: '5px' }}>
