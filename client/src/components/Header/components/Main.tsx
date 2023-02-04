@@ -14,8 +14,7 @@ export default function Main() {
   return (
     <div>
       <div
-        className='Logo'
-        style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}
+        className='logo'
       >
         <img
           src={logo}
@@ -23,34 +22,36 @@ export default function Main() {
           style={{
             width: '120px',
             height: '120px',
-            marginTop: '14px',
+            marginTop: '30px',
+            marginLeft: '40px',
             borderRadius: '25px',
             boxShadow: '5px 5px 5px 0px rgba(0,0,0,0.3)',
           }}
         />
-        <div style={{ marginTop: '63px' }}>
-          <ul className='navMenu' style={{ listStyle: 'none' }}>
+        <div className="nav-menu-wrapper" >
+          <ul className='navMenu' >
             <li>
               <NavLink to='/' style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-                {<CottageTwoToneIcon style={{ margin: '5px' }} />} Home
+                {<CottageTwoToneIcon style={{ margin: '5px' }} />} 
+                <span className='nav-span'>Home</span>
               </NavLink>
             </li>
             <li>
-              {' '}
               <NavLink to='/catalog' style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-                {<TimeToLeaveTwoToneIcon style={{ margin: '5px' }} />}Car Catalog
+                {<TimeToLeaveTwoToneIcon style={{ margin: '5px' }} />}
+                <span className='nav-span'>Car Catalog</span>
               </NavLink>
             </li>
             <li>
-              {' '}
               <NavLink to='/news' style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-                {<ArticleTwoToneIcon style={{ margin: '5px' }} />}News
+                {<ArticleTwoToneIcon style={{ margin: '5px' }} />}
+                <span className='nav-span'>News</span>
               </NavLink>
             </li>
             <li>
-              {' '}
               <NavLink to='/contact' style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-                {<ContactPhoneTwoToneIcon style={{ margin: '5px' }} />}Contact
+                {<ContactPhoneTwoToneIcon style={{ margin: '5px' }} />}
+                <span className='nav-span'>Contact</span>
               </NavLink>
             </li>
           </ul>
