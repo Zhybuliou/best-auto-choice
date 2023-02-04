@@ -21,7 +21,7 @@ export default function Cars() {
               display: 'flex',
               margin: '5px',
               width: '250px',
-              height: '350px',
+              height: '380px',
               flexDirection: 'column',
             }}
           >
