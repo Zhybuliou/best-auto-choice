@@ -41,8 +41,5 @@
     "main.fe8d121e.css.map": "./static/css/main.fe8d121e.css.map",
     "main.c5580fb6.js.map": "./static/js/main.c5580fb6.js.map"
   },
-  "entrypoints": [
-    "static/css/main.fe8d121e.css",
-    "static/js/main.c5580fb6.js"
-  ]
+  "entrypoints": ["static/css/main.fe8d121e.css", "static/js/main.c5580fb6.js"]
 }

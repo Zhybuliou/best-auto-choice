@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function News() {
   return (
-    <div style={{ width: '100%', textAlign: 'center' }}>
+    <div className='news-wrapper' style={{ width: '100%', textAlign: 'center' }}>
       <h1 style={{ marginTop: '20px' }}>News</h1>
       <p style={{ marginTop: '20px' }}>
         <strong>‼️Ценообразование‼️</strong>
