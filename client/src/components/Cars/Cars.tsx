@@ -7,12 +7,31 @@ import TitleTwoToneIcon from '@mui/icons-material/TitleTwoTone'
 import EmojiObjectsTwoToneIcon from '@mui/icons-material/EmojiObjectsTwoTone'
 
 export default function Cars() {
+  const buttonGreen = {
+    background: 'green',
+  }
+  const buttonYellow = {
+    background: 'yellow'
+  }
+  const buttonRed = {
+    background: 'red'
+  }
+  const buttonBlue = {
+    background: 'blue'
+  }
+  const buttonWhite = {
+    background: '#ccc'
+  }
   return (
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around' }}>
       {dataCars.adminEvents.media.medias.map((img) => {
         const objCar = dataCars.adminEvents.assets.assets as any
-        const { model, year, make, mileage, fuelType, estimates, transmission } =
+        const {estimates} =
           objCar[img.entityId as keyof typeof objCar].searchable
+        const { model, year, make, mileage, fuelType, transmission, greenLight, redLight,
+          whiteLight, yellowLight, blueLight
+        } =
+          objCar[img.entityId as keyof typeof objCar].fields
         const trans = transmission ? transmission.split(' ')[0] : transmission
         return (
           <Card
@@ -54,11 +73,13 @@ export default function Cars() {
                 </p>
                 <p style={{ display: 'flex', alignItems: 'center', fontSize: '12px' }}>
                   {<EmojiObjectsTwoToneIcon style={{ fontSize: '18px', marginLeft: '60px' }} />}
-                  <span className='card-light'>G</span>
-                  <span className='card-light'>Y</span>
-                  <span className='card-light'>R</span>
-                  <span className='card-light'>B</span>
-                  <span className='card-light'>W</span>
+                  <span className='card-light' style={ greenLight ? buttonGreen : undefined }>
+                    G
+                  </span>
+                  <span className='card-light' style={ yellowLight ? buttonYellow : undefined }>Y</span>
+                  <span className='card-light' style={ redLight ? buttonRed : undefined }>R</span>
+                  <span className='card-light' style={ blueLight ? buttonBlue : undefined }>B</span>
+                  <span className='card-light' style={ whiteLight ? buttonWhite : undefined }>W</span>
                 </p>
               </div>
               <div className='card-button'>
