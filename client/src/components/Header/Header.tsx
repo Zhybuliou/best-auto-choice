@@ -4,9 +4,7 @@ import Main from './components/Main'
 
 export default function Header() {
   return (
-    <Box
-      className='header'
-    >
+    <Box className='header'>
       <Main />
     </Box>
   )

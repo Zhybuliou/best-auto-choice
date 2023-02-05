@@ -70,25 +70,25 @@
 .card-button {
   margin-top: 10px;
 }
-.logo{
+.logo {
   display: 'flex';
   align-items: 'center';
   flex-direction: 'column';
   margin: 0 auto;
 }
-.header{
-    min-width: '200px';
-    min-height: '95vh';
-    background-color: '#FFFFFF';
-    border-right: '1px solid #D1D1D1',
+.header {
+  min-width: '200px';
+  min-height: '95vh';
+  background-color: '#FFFFFF';
+  border-right: '1px solid #D1D1D1';
 }
-.nav-menu-wrapper{
+.nav-menu-wrapper {
   margin-top: 63px;
 }
-.navMenu{
+.navMenu {
   list-style: 'none';
 }
-.catalog-cars{
+.catalog-cars {
   width: 90%;
 }
 
@@ -96,7 +96,7 @@
   .logo img {
     display: none;
   }
-  .header{
+  .header {
     position: fixed;
     width: 100%;
     min-height: 5vh;
@@ -104,13 +104,13 @@
     z-index: 999;
     bottom: 0;
   }
-  .nav-menu-wrapper{
+  .nav-menu-wrapper {
     margin-top: 0px;
   }
-  .navMenu{
+  .navMenu {
     display: flex;
   }
-  .nav-span{
+  .nav-span {
     display: none;
   }
   .navMenu li a {
@@ -123,13 +123,13 @@
   .newsList li {
     margin-top: 0px;
   }
-  .catalog-filter{
+  .catalog-filter {
     display: none;
   }
-  .catalog-cars{
+  .catalog-cars {
     width: 100%;
   }
-  .newsList{
+  .newsList {
     width: 300px;
   }
 }
