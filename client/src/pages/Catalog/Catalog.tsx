@@ -5,7 +5,7 @@ export default function Catalog() {
   return (
     <div style={{ width: '100%' }}>
       <div className='catalog-page' style={{ display: 'flex' }}>
-        <div className='catalog-cars' >
+        <div className='catalog-cars'>
           <h3
             style={{
               fontSize: '28px',

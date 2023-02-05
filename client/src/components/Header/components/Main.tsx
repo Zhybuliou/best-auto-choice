@@ -13,9 +13,7 @@ export default function Main() {
   }
   return (
     <div>
-      <div
-        className='logo'
-      >
+      <div className='logo'>
         <img
           src={logo}
           alt='Logo'
@@ -28,11 +26,11 @@ export default function Main() {
             boxShadow: '5px 5px 5px 0px rgba(0,0,0,0.3)',
           }}
         />
-        <div className="nav-menu-wrapper" >
-          <ul className='navMenu' >
+        <div className='nav-menu-wrapper'>
+          <ul className='navMenu'>
             <li>
               <NavLink to='/' style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-                {<CottageTwoToneIcon style={{ margin: '5px' }} />} 
+                {<CottageTwoToneIcon style={{ margin: '5px' }} />}
                 <span className='nav-span'>Home</span>
               </NavLink>
             </li>
