@@ -62,7 +62,7 @@ export default function Cars() {
             }}
           >
             <div>
-              <img src={img.urls.small} style={{ width: '320px', height: '100%' }} alt={model} />
+              <img src={img.urls.medium} style={{ width: '320px', height: '240px' }} alt={model} />
             </div>
 
             <div style={{ width: '100%', marginLeft: '5px' }}>
