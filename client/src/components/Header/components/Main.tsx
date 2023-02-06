@@ -12,7 +12,7 @@ export default function Main() {
     color: 'white',
   }
   return (
-    <div >
+    <div>
       <div className='logo'>
         <img
           src={logo}

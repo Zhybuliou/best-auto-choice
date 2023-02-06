@@ -91,7 +91,7 @@
 .catalog-cars {
   width: 90%;
 }
-.news-wrapper{
+.news-wrapper {
   min-height: 95vh;
 }
 @media screen and (max-width: 700px) {
