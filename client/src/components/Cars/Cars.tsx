@@ -1,6 +1,6 @@
 import { Button, Card } from '@mui/material'
 import React from 'react'
-import dataCars from '../../data_2.json'
+import dataCars from '../../data_3.json'
 import SpeedTwoToneIcon from '@mui/icons-material/SpeedTwoTone'
 import LocalGasStationTwoToneIcon from '@mui/icons-material/LocalGasStationTwoTone'
 import TitleTwoToneIcon from '@mui/icons-material/TitleTwoTone'
@@ -62,7 +62,7 @@ export default function Cars() {
             }}
           >
             <div>
-              <img src={img.urls.medium} style={{ width: '320px', height: '240px' }} alt={model} />
+              <img src={img.urls.medium} style={{ width: '320px', height: '244px' }} alt={model} />
             </div>
 
             <div style={{ width: '100%', marginLeft: '5px' }}>
